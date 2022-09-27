@@ -1,0 +1,49 @@
+<!-- Start: Educacion -->
+<section class="page">
+    <div class="container-fluid" style="padding: 0px;">
+        <span class="d-flex black-line"></span>
+        <div class="intro-div">
+            <div class="row">
+                <div class="col">
+                    <img class="img-header" src="/assets/AboutEducation.png">
+                </div>
+                <div class="col">
+                    <p class="roboto-text"><br>Don't live for your work<br>But if you enjoy what you do<br>You won't work a day of your life<br>So go and work for your life<br>Do what you do. Grow and not just get old.</p>
+                </div>
+            </div>
+        </div>
+        <span class="d-flex black-line"></span><!-- great jobs-->
+        <div class="row row-cont">
+            <div class="col-1">
+                <img class="img-item" src="/assets/Academic.png">
+            </div>
+            <div class="col cols-gene">
+                <ul>
+                    <li class="roboto-text" *ngFor="let edu of formalEdus">> >{{edu.name}}< <<br>{{edu.thoughts}}</li>
+                </ul>
+            </div>
+        </div>
+        <span class="d-flex black-line"></span><!-- food  -->
+        <div class="row row-cont">
+            <div class="col-1">
+                <img class="img-item" src="/assets/Courses.png">
+            </div>
+            <div class="col cols-gene">
+                <ul>
+                    <li class="roboto-text" *ngFor="let edu of courseEdus">> >{{edu.name}}< <<br>{{edu.thoughts}}</li>
+                </ul>
+            </div>
+        </div>
+        <span class="d-flex black-line"></span><!-- dreams -->
+        <div class="row row-cont">
+            <div class="col-1">
+                <img class="img-item" src="/assets/Hobbies.png">
+            </div>
+            <div class="col cols-gene">
+                <ul class="lists">
+                    <li class="roboto-text" *ngFor="let edu of hobbiesEdus">> >{{edu.name}}< <<br>{{edu.thoughts}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section><!-- End: Educacion ---->

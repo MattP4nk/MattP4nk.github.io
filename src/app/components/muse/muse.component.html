@@ -1,0 +1,26 @@
+ <div class="container-fluid aside" id="aside" style="visibility: hidden;" onmouseover="focusInput()" onload="helper()" onresize="setPrompt()" onmouseout="blurInput()">
+    <div class="row  no-pad no-marg" style="width: 100%;height: 100%;">
+        <div class="col-9 no-pad no-marg" style="height:100%; max-width:73vw;">
+            <form class="card no-marg" style="height: 100%; width: 100%; padding: 1vmax;">
+                <div class="card-body no-pad no-marg" style="height: 80%;width: 100%;">
+                        <div class="roboto-chat" id="output"></div>
+                </div>
+                <div class="div" style="height:5%;"></div>
+                <div class="card-header no-pad no-marg" style="height: 10%; width: 100%;">
+                    <input class="form-control roboto-chat" type="text" id="input" autocomplete="off" style="text-align: right; width: 100%;" onkeypress="handle(event)" spellcheck="false">
+                </div>
+            </form>
+        </div>
+        <div class="col-2  no-pad no-marg" style="visibility: visible; height: 100%;">
+            <div class="div" style="height:10%;"></div>
+            <div class="card no-pad no-marg" style="width: 20vw; height: 100%; max-width: min-content;">
+                <div class="card-header no-pad no-marg" style="padding-left: 1vmin; padding-right: 1vmin;">
+                    <img class="img-fluid" style="background-color: black; min-width: 50px; min-height: 15px;" src="/assets/d00504464065c701e1bff68c90dc3213.png">
+                </div>
+                <div class="card-body no-pad no-marg" style="max-width: min-content; height: 50%;">
+                    <button class="btn-lg border image rounded-circle img-fluid" data-bss-hover-animate="flash" id="button" type="button" style="background: url(&quot;/assets/default-image.jpg&quot;), rgba(0,0,0,0);"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
